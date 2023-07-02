@@ -1,0 +1,130 @@
+body {
+    overflow: hidden;
+    background: #F1F7B5;
+    display: block;
+    margin: 8px;
+}
+.container {
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator {
+    width: 370px;
+    margin: auto;
+    border-radius: 2px;
+    background: #f2f2f2;
+    padding: 15px 15px 20px 20px;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 50%);
+}
+#user_input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 5px;
+    background: whitesmoke;
+    text-align: right;
+    direction: ltr;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.btn {
+    width: 24%;
+    height: 45px;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+    background: whitesmoke;
+    font-size: x-large;
+}
+.btns {
+    width: 24%;
+    height: 45px;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+    background: whitesmoke;
+    font-size: x-large;
+}
+.btn:hover ,.btnEqual:hover{
+    background-color: rgb(205, 205, 205);
+    cursor: pointer;
+}
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+.btn1 {
+    background-color: #ffb84d;;
+}
+.btn2 {
+    background-color: #ffcc80;
+}
+.btn3 {
+    background-color: #ffe0b3;
+}
+.btn4 {
+    background-color: #fff5e6;
+}
+.btns:hover {
+    background-color: #f49d5b;
+    cursor: pointer;
+}
+.btnEqual {
+    width: 99.2%;
+    height: 45px;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+    background: whitesmoke;
+    font-size: larger;
+}
